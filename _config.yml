@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "eunjoo"
   avatar           : "/assets/images/teaser.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "일단 공부해보는 중"
+  bio              : "개발 공부 한 번 해볼까?"
   location         : "Seoul, Korea"
   email            :
   links:
