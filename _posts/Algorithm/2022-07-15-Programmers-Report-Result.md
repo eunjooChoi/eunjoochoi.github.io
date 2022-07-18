@@ -8,7 +8,7 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
-  - Algorighm
+  - Algorithm
   - Programmers
 
 ---
