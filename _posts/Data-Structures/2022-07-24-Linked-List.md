@@ -66,7 +66,7 @@ print로 node1을 찍어봤을 때 잘 출력되는 것을 확인할 수 있다.
 3. 삽입
 4. 제거
 
-````swift
+```swift
 struct LinkedList<T> {
     var head: Node<T>?
     var tail: Node<T>?
@@ -75,7 +75,7 @@ struct LinkedList<T> {
     
     var isEmpty: Bool { return head == nil }
 }
-````
+```
 
 우선은 head와 tail 노드를 저장할 수 있는 LinkList 구조체를 만들었다.
 다음 포스팅에서 삽입, 그 다음 포스팅에서 제거를 정리한다.
