@@ -34,7 +34,7 @@ linked list에서 사용하는 Node는 두가지를 담당한다.
 
 이 노드를 코드로 구현해보자. 우선 노드가 할 일인 위의 두 가지를 포함해야한다.
 
-```Swift
+```swift
 class Node<T> {
     var value: T
     var next: Node?
@@ -66,7 +66,7 @@ print로 node1을 찍어봤을 때 잘 출력되는 것을 확인할 수 있다.
 3. 삽입
 4. 제거
 
-````Swift
+````swift
 struct LinkedList<T> {
     var head: Node<T>?
     var tail: Node<T>?
