@@ -14,22 +14,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-docs:
-  - title: iOS
-    children:
-      - title: "Storyboard"
-        url: Storyboard/
-      - title: "SwiftUI"
-        url: SwiftUI/
-      - title: "Syntax"
-        url: Syntax/
-      - title: "Etc"
-        url: Etc/
-
-  - title: Etc.
-    children:
-      - title: "Algorithm"
-        url: Algorithm/
-      - title: "Data Structures"
-        url: Data-Structures/
