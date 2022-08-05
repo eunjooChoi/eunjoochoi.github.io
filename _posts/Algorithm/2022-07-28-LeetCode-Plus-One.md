@@ -8,9 +8,9 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
-  - Algorithm
-  - LeetCode
+  - [Algorithm, LeetCode]
 
+permalink: /algorithm/LeetCode-Plus-One
 ---
 
 ## 문제 설명

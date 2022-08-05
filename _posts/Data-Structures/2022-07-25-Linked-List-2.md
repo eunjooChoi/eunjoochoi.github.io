@@ -8,8 +8,9 @@ toc_sticky: true
 categories:
   - Data-Structures
 tags:
-  - Data-Structures
-  - LinkedList
+  - [Data-Structures, LinkedList]
+  
+permalink: /data-structures/Linked-List-2
 
 ---
 

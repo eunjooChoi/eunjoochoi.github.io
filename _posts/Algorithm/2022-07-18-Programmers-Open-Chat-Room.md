@@ -8,9 +8,9 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
-  - Algorithm
-  - Programmers
+  - [Algorithm, Programmers]
 
+permalink: /algorithm/Programmers-Open-Chat-Room
 ---
 
 두 번째 레벨2 문제. 그래도 이건 생각보다는 쉬웠다.

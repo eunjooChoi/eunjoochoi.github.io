@@ -8,8 +8,9 @@ toc_sticky: true
 categories:
   - Data-Structures
 tags:
-  - Data-Structures
-  - LinkedList
+  - [Data-Structures, LinkedList]
+  
+permalink: /data-structures/Linked-List
 
 ---
 요즘 알고리즘 테스트를 준비하다 보면 간혹가다 자료구조에 대한 지식이 있어야 풀 수 있는 문제들이 나올 때가 있다.

@@ -8,9 +8,9 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
-  - Algorithm
-  - LeetCode
+  - [Algorithm, LeetCode]
 
+permalink: /algorithm/LeetCode-Merge-Sorted-Array
 ---
 
 ## 문제 설명

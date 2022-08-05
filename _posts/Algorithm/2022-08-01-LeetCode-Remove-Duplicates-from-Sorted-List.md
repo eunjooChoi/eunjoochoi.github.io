@@ -8,8 +8,9 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
-  - Algorithm
-  - LeetCode
+  - [Algorithm, LeetCode]
+  
+permalink: /algorithm/leetcode-remove-duplicates-from-sorted-list/
 
 ---
 

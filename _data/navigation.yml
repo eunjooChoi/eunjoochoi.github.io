@@ -1,16 +1,31 @@
 # main links
 main:
-    - title: "Categories"
-      url: /categories/
-    - title: "Tags"
-      url: /tags/
-  #- title: "Quick-Start Guide"
-  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: https://eunjoochoi.github.io/
+
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: https://github.com/eunjooChoi
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "SwiftUI"
+    url: /categories/swiftui/
+  - title: "iOS-problems"
+    url: /categories/ios-problems/
+  - title: "iOS-docs"
+    url: /categories/ios-docs/
+  - title: "Algorithm"
+    url: /categories/algorithm/
+  - title: "Data-Structures"
+    url: /categories/data-structures/
+

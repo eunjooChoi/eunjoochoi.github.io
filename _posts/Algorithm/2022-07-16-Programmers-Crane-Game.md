@@ -8,8 +8,9 @@ toc_sticky: true
 categories:
   - Algorithm
 tags:
-  - Algorithm
-  - Programmers
+  - [Algorithm, Programmers]
+  
+permalink: /algorithm/programmers-crane-game/
 
 ---
 

@@ -8,8 +8,9 @@ toc_sticky: true
 categories:
   - Data-Structures
 tags:
-  - Data-Structures
-  - BinaryTree
+  - [Data-Structures, BinaryTree]
+  
+permalink: /data-structures/BinaryTree
 
 ---
 
