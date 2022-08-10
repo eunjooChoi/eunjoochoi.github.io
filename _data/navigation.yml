@@ -20,10 +20,14 @@ main:
 categories:
   - title: "SwiftUI"
     url: /categories/swiftui/
+  - title: "SwiftUI - Search App"
+    url: /categories/swiftui-searchapp/
   - title: "iOS-problems"
     url: /categories/ios-problems/
   - title: "iOS-docs"
     url: /categories/ios-docs/
+  - title: "WWDC"
+    url: /categories/wwdc/
   - title: "Algorithm"
     url: /categories/algorithm/
   - title: "Data-Structures"
