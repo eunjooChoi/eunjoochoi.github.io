@@ -1,5 +1,5 @@
 ---
-title: "Strings and Characters 01"
+title: "Strings and Characters 02"
 excerpt: "iOS 문서 훑어보기 - String, Character"
   
 toc: true
