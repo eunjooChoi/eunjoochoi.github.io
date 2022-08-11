@@ -134,6 +134,5 @@ print("the number of characters in \(word) is \(word.count)")
 
 String 관련 메서드들은 다음 포스팅에서 계속..!
 
-[참고 링크](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
-
+> [참고 링크](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
 > 최초 작성: tistory / 20220223
