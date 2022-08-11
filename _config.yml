@@ -277,7 +277,7 @@ defaults:
       author_profile: true
       read_time: false
       show_date: true
-      comments: false
+      comments: true
       # share: true
       related: false
       sidebar:
