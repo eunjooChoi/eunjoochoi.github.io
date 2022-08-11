@@ -1,7 +1,7 @@
 ---
-title: "SwiftUI"
+title: "SwiftUI-Tutorials"
 layout: category
-permalink: /categories/swiftui/
+permalink: /categories/swiftui-tutorials/
 author_profile: true
 taxonomy: SwiftUI
 sidebar:

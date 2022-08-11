@@ -18,8 +18,8 @@ main:
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "SwiftUI"
-    url: /categories/swiftui/
+  - title: "SwiftUI-Tutorials"
+    url: /categories/swiftui-tutorials/
   - title: "SwiftUI - Search App"
     url: /categories/swiftui-searchapp/
   - title: "iOS-problems"
