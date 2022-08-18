@@ -10,7 +10,7 @@ categories:
 tags:
   - [iOS-docs, swift]
   
-permalink: /ios-docs/Strings-and-Characters
+permalink: /ios-docs/Strings-and-Characters-02
 
 ---
 지난 시간에 이어 String, Character 알아보기 두 번째.
@@ -146,5 +146,6 @@ print("\(mansionCount) mansion scenes; \(cellCount) cell scenes")
 ```
 
 
-> [참고 링크](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+[참고 링크](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
+
 > 최초작성: tistory / 20220224
