@@ -10,7 +10,7 @@ categories:
 tags:
   - [iOS-docs, swift]
   
-permalink: /ios-docs/Strings-and-Characters
+permalink: /ios-docs/Strings-and-Characters-01
 
 ---
 ## String
