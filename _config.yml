@@ -27,7 +27,7 @@ description: "개발 공부 한 번 해볼까?" # 블로그 설명
 url: "https://eunjoochoi.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "eunjooChoi/git_comment" # GitHub Repo 이름
-teaser: "/assets/images/teaser.jpeg"
+teaser: ""
 
 logo: "/assets/images/logo.jpg" # 블로그명 앞에 로고 추가하고 싶을 경우 사용
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name: "eunjoo" # 블로그 닉네임
-  avatar: "/assets/images/teaser.jpeg" # 블로그 프로필 사진
+  avatar: "/assets/images/profile.jpeg" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
