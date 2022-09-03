@@ -10,7 +10,7 @@ categories:
 tags:
   - [iOS, SwiftUI]
 
-permalink: /ios-problems/binding-property-preview
+permalink: /ios-problems/binding-preview
 
 ---
 
