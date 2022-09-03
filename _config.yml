@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name: "eunjoo" # 블로그 닉네임
-  avatar: "/assets/images/profile.jpeg" # 블로그 프로필 사진
+  avatar: "/assets/images/profile.jpg" # 블로그 프로필 사진
   #   bio              : "hi all!"
   # location         : "Seoul, Korea"
   # email            : "youremailhere@xxxxxx.com"
