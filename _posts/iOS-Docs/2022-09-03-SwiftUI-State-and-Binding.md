@@ -101,8 +101,7 @@ SwiftUI에서는 해당 값이 변경되는지 지켜보다가 값이 변경될 
 ```
 
 실행해보면??
-
-<img src="Sep-04-2022 00-35-40](https://user-images.githubusercontent.com/22000470/188277774-d6ba96e4-0705-4caa-bef1-b7629d96214d.gif" width="400">
+<img src="https://user-images.githubusercontent.com/22000470/188277774-d6ba96e4-0705-4caa-bef1-b7629d96214d.gif" width="400">
 
 Button을 누를 때마다 toggle 메서드가 호출되어 isShowing의 값이 함께 변화하고, 그 값의 결과가 Text와 버튼의 Text에 나타난다.
 
@@ -154,7 +153,7 @@ struct UserProfile {
 
 preview를 실행히보면 아래와 같이 나온다.
 
-<img src="Sep-04-2022 00-50-01](https://user-images.githubusercontent.com/22000470/188278309-908bd0f7-7080-45d8-ba43-a18a33b312e0.gif" width="400">
+<img src="https://user-images.githubusercontent.com/22000470/188278309-908bd0f7-7080-45d8-ba43-a18a33b312e0.gif" width="400">
 
 > immutable value는 기존과 동일하게 let propertyName = 과 같이 선언할 수 있다.
 
@@ -187,7 +186,7 @@ ButtonView를 분리했으니, 다시 CotentView로 돌아가서 ButtonView를 �
 
 Toggle을 선언할 때 보니 isOn의 값이 어차피 바인딩으로 들어간다. @State로 감싸진 userProfile을 사용해 구현해본 결과는 아래와 같다.
 
-<img src="Sep-04-2022 01-23-38](https://user-images.githubusercontent.com/22000470/188279561-aade28a9-7817-4255-a11c-d428c40fc876.gif" width="400">
+<img src="https://user-images.githubusercontent.com/22000470/188279561-aade28a9-7817-4255-a11c-d428c40fc876.gif" width="400">
 
 button에 이미지도, toggle 상태도 아주 잘 나온다. agreeProvideInformation 값이 잘 변경되어 show/hide 했을 때도 변경된 값이 잘 보여진다.
 
