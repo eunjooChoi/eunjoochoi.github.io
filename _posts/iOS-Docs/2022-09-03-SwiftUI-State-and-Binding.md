@@ -8,7 +8,7 @@ toc_sticky: true
 categories:
   - iOS-docs
 tags:
-  - [iOS-docs, swift, swiftui]
+  - [iOS-docs, swift, SwiftUI]
   
 permalink: /ios-docs/swiftui-state-and-binding
 
