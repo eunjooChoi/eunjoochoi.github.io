@@ -19,11 +19,11 @@ minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
 
 # Site Settings
 locale: "ko-KR" #"en-US"
-title: "eunjoo's diary" # 상단 헤더에 보이는 블로그 명
+title: "archive.unjoo - Devloper" # 상단 헤더에 보이는 블로그 명
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "eunjoo" # 블로그 닉네임 설정
-description: "개발 공부 한 번 해볼까?" # 블로그 설명
+description: "개발 공부하는 곳" # 블로그 설명
 url: "https://eunjoochoi.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "eunjooChoi/git_comment" # GitHub Repo 이름
