@@ -280,6 +280,8 @@ defaults:
       read_time: false
       show_date: true
       comments: true
+      toc_ads: true
+      toc_sticky: true
       # share: true
       related: false
       sidebar:
