@@ -1,6 +1,6 @@
 ---
 title: "[WWDC19] Data Flow Through SwiftUI"
-excerpt:
+excerpt: "SwiftUI에서는 데이터를 어떻게 사용할까?"
   
 toc: true
 toc_sticky: true
