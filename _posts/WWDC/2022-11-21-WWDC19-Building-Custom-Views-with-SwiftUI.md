@@ -1,5 +1,5 @@
 ---
-title: "[WWDC19] Building Custom Views with SwiftUI(진행중...)"
+title: "[WWDC19] Building Custom Views with SwiftUI"
 excerpt: "SwiftUI에서 View를 만들고 사용하는 방법"
   
 toc: true
@@ -61,3 +61,36 @@ layer로 보자면 아래와 같다.
 추가로 아보카도 이미지로도 설명을 해줬는데, frame은 제약조건 같은 것이 아니라 액자 같은거라고 생각하는 게 중요하다는 말을 덧붙였다.
 
 ## HStack and VStack
+- Stack을 사용하면 애플에서 제공하는 기본적인 spacing을 사용하게 된다. (알아서 해주니까 굉장히 깔끔.) 하지만 간격을 직접 조정하고 싶을 때는 **spacing** 값을 조절해주면 된다.
+   - `VStack(spacing: 4)` 처럼 사용한다.
+- 읽는 방향이 다른 언어들에 대해서도 레이아웃 자동으로 설정돼서 개발자가 딱히 건드려줄 것이 없다
+
+## How Stacks Work
+![image](https://user-images.githubusercontent.com/22000470/206829399-dc9f286c-20f1-49d9-b857-0c7e5eb11025.png)
+
+1. Stack 내에서 요소 간 간격을 제외
+2. 남은 길이를 HStack에 들어갈 요소 세개가 동일하게 배분
+3. 세 개 중 가장 가변성이 적은 image의 길이를 고정 후 총 길이에서 image의 길이 제외
+4. Text 두 개가 나머지 길이를 동일하게 나눠가짐
+   - 그 중 조금 더 길이가 짧은 Delicious의 길이를 고정하고 그 후 남은 길이를 Avocado Toast가 갖게 됨
+
+하지만 만약 화면이 좁아서 두 text가 잘릴 위기에 처한다면??
+--> SwiftUI에서 Truncate 처리를 한다. 만약 두 Text 중 더 중요한 Text가 있다면 **layoutPriority(0~1사이의값)** 을 적용한다. (priority 값이 높은 순으로 길이가 적용된다.)
+
+![image](https://user-images.githubusercontent.com/22000470/206829496-7e92a1e5-3da6-4d28-83b2-1f2e98a69823.png)
+ 
+## Alignments
+
+![image](https://user-images.githubusercontent.com/22000470/206829579-767e6af9-15c6-4fdf-b3d9-d106d24db302.png)
+
+WWDC에서 예시 들어주는 거 왜이렇게 웃기지 ㅋㅋㅋㅋㅋㅋㅋ 디자이너가 와서 Delicious와 이미지와 Avocado Toast의 라인이 안맞잖아여!! 라고 확대해서 가져오면 어떡하냐~ 이런 예시를 들어줬는데 뭔가 현업에서 있을 법한 얘기라 웃겨 죽겠네 ㅋㅋㅋㅋㅋ.... 하지만 슬프다...
+
+이런 경우에도 alignment 값만 조정해주면 된다고 한다. 바로 **lastTextBaseline**
+
+![image](https://user-images.githubusercontent.com/22000470/206829625-770300fc-e74e-4c8d-b3cd-90e73fe877fe.png)
+
+값을 적용해주면 요렇게 새 가지 요소의 baseline이 동일해진다고..! 
+
+그럼 이미지...의 baseline만 조절하고 싶을 때는??
+
+![image](https://user-images.githubusercontent.com/22000470/206829682-0fb2ae51-c025-4e2f-8221-ec4f825a0e79.png)
