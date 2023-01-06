@@ -10,5 +10,4 @@ layout: single
 - 🌱 Swift, Objective-C ...
 - 🌿 currently learning SwiftUI
 
-- ⚡ Tistory: https://choi-log-life.tistory.com/ (github.io로 이전중 ⏩⏩⏩)
 - ⚡ github pages: https://eunjoochoi.github.io/
