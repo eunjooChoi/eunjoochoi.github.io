@@ -17,6 +17,7 @@ permalink: /ios-problems/how-to-send-data-parent-view-controller
 자식 viewcontroller에서 delegate 정의 후 부모 viewcontroller에서 delegate 채택 후 자식 viewcontroller 생성 시 delegate 주입.
 
 - 부모 VC
+
 ```swift
 func presentDelegateViewController() {
         guard let delegateViewController = self.storyboard?.instantiateViewController(withIdentifier: "DelegateViewController") as? DelegateViewController else { return }
@@ -29,6 +30,7 @@ func presentDelegateViewController() {
 ```
 
 - 자식 VC
+
 ```swift
 protocol DataSendable: AnyObject {
     func send(data: String)
@@ -45,14 +47,15 @@ class DelegateViewController: UIViewController {
         self.delegate?.send(data: "Delegate")
     }
 }
-
 ```
+
 ### closure 이용하기
 
 closure를 이용하는 방법.
 present된 viewcontroller에서 데이터를 전달할 클로저를 정의하고, 부모 viewcontroller에서 dataClosure의 데이터를 받아 처리한다.
 
 - 부모 VC
+
 ```swift
    func presentClosureViewController() {
         guard let closureViewController = self.storyboard?.instantiateViewController(withIdentifier: "ClosureViewController") as? ClosureViewController else { return }
@@ -68,6 +71,7 @@ present된 viewcontroller에서 데이터를 전달할 클로저를 정의하고
 ```
 
 - 자식 VC
+
 ```swift
    var dataClosure: ((_ data: String) -> Void)?
 ```
