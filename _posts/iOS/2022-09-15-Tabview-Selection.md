@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-problems
+  - iOS
 tags:
   - [iOS, Swift]
 
-permalink: /ios-problems/tabview-selection
+permalink: /ios/tabview-selection
 
 ---
 

@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-problems
+  - iOS
 tags:
   - [iOS, Swift]
 
-permalink: /ios-problems/how-to-send-data-parent-view-controller
+permalink: /ios/how-to-send-data-parent-view-controller
 
 ---
 ### delegate 이용하기

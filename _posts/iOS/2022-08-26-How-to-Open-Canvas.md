@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-problems
+  - iOS
 tags:
   - [iOS, Xcode]
 
-permalink: /ios-problems/how-to-open-canvas
+permalink: /ios/how-to-open-canvas
 
 ---
 

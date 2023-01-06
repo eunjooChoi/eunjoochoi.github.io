@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift, SwiftUI]
+  - [swift-docs, swift, SwiftUI]
   
-permalink: /ios-docs/managing-model-data-in-your-app
+permalink: /swift/managing-model-data-in-your-app
 
 ---
 

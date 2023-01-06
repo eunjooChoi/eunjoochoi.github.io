@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Initialization-05
+permalink: /swift/Initialization-05
 
 ---
 앞에서 Initialization을 알아봤으니 이번엔 Deinitialization을 공부해야겠다.

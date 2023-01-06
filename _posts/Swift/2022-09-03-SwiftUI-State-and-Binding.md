@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift, SwiftUI]
+  - [swift-docs, swift, SwiftUI]
   
-permalink: /ios-docs/swiftui-state-and-binding
+permalink: /swift/swiftui-state-and-binding
 
 ---
 애플에서 제공하는 SwiftUI 튜토리얼을 따라 만들 때는 그냥 코드를 보면서 대충 이해하고 넘겼지만 이제 직접 앱을 구현해보려고 하니 SwiftUI가 앱 UI를 어떻게 조작하고 값을 업데이트 하는지 제대로 알아둬야 두 번, 세 번씩 찾아보지 않을 것 같아 정리해보는 포스팅.

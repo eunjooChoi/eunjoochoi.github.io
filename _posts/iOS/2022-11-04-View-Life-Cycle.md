@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-problems
+  - iOS
 tags:
   - [iOS, Swift]
 
-permalink: /ios-problems/view-life-cycle
+permalink: /ios/view-life-cycle
 
 ---
 

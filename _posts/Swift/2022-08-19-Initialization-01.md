@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Initialization-01
+permalink: /swift/Initialization-01
 
 ---
 도대체 swift는 init이 왜 이렇게 많을까..? 종류별로 하나씩 기억하기가 어려워서 정리하는 포스팅..!

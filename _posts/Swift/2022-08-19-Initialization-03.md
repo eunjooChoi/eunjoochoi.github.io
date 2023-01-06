@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Initialization-03
+permalink: /swift/Initialization-03
 
 ---
 지난 포스팅에서 값 타입(Structure)의 initializer까지 공부했다.

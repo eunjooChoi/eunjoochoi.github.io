@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Initialization-04
+permalink: /swift/Initialization-04
 
 ---
 드디어 initialization 문서의 마지막을 정리하는 포스팅이다. 이번 포스팅에서는 Faliable Initializer, Required Initializer를 정리한다!

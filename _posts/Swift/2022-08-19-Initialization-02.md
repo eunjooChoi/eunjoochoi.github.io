@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Initialization-02
+permalink: /swift/Initialization-02
 
 ---
 지난 포스팅에 이어서 Swift 초기화에 대해 계속 정리-ing... 링크는 [여기](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html)!!

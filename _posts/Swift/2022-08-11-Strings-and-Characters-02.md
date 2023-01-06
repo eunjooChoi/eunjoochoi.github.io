@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Strings-and-Characters-02
+permalink: /swift/Strings-and-Characters-02
 
 ---
 지난 시간에 이어 String, Character 알아보기 두 번째.

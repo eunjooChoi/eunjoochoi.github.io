@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-docs
+  - Swift
 tags:
-  - [iOS-docs, swift]
+  - [swift-docs, swift]
   
-permalink: /ios-docs/Structures-and-Classes
+permalink: /swift/Structures-and-Classes
 
 ---
 오늘은 구조체와 클래스에 대해 알아본다.

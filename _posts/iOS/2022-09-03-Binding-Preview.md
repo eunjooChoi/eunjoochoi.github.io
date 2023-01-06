@@ -6,11 +6,11 @@ toc: true
 toc_sticky: true
 
 categories:
-  - iOS-problems
+  - iOS
 tags:
   - [iOS, SwiftUI]
 
-permalink: /ios-problems/binding-preview
+permalink: /ios/binding-preview
 
 ---
 
